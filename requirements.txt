@@ -1,0 +1,6 @@
+pyrogram
+TgCrypto
+pyromod
+requests
+pytesseract
+Pillow
