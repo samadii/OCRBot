@@ -19,8 +19,18 @@ A Telegram bot to extracting text from images. All languages supported.
    
 3. Use it to install Tesseract, Then Go to [this line](https://github.com/samadii/OCRBot/blob/main/bot.py#L10) and fill the inverted commas with the PATH where Tesseract is installed.
 
-4. Also You should replace this PATH value with one of bellow values
-
+4. Replace [this PATH](https://github.com/samadii/OCRBot/blob/main/bot.py#L55) with the correct one of the bellow paths :
+   ```
+   /usr/local/share/tessdata/
+   ```
+   ```
+   /usr/share/tesseract-ocr/tessdata/
+   ```
+   ```
+   /usr/share/tessdata/
+   ```
+   It based on your local machine so try with them one by one.
+   
 5. Enter the directory
    ```
    cd OCRBot
