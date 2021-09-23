@@ -5,7 +5,7 @@ A Telegram bot to extracting text from images. All languages supported.
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/samadii/OCR-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/samadii/OCRBot)
 
 
 ## Local Deploying
@@ -17,19 +17,21 @@ A Telegram bot to extracting text from images. All languages supported.
 
 2. Now head to [this page](https://github.com/UB-Mannheim/tesseract/wiki) and install Tesseract installer. 
    
-3. Use it to install Tesseract, Then Go to [this line]( and fill the inverted commas with the PATH where Tesseract is installed.
+3. Use it to install Tesseract, Then Go to [this line](https://github.com/samadii/OCRBot/blob/main/bot.py#L10) and fill the inverted commas with the PATH where Tesseract is installed.
 
-6. Enter the directory
+4. Also You should replace this PATH value with one of bellow values
+
+5. Enter the directory
    ```
    cd OCRBot
    ```
   
-7. Install all requirements using pip.
+6. Install all requirements using pip.
    ```
    pip3 install -r requirements.txt
    ```
 
-8. Run the file
+7. Run the file
    ```
    python3 bot.py
    ```
