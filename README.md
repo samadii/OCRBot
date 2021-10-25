@@ -14,7 +14,7 @@ A Telegram bot to extracting text from images. All languages supported.
 
 2. Now head to [this page](https://github.com/UB-Mannheim/tesseract/wiki) and install Tesseract installer. 
    
-3. Use it to install Tesseract, Then Go to [this line](https://github.com/samadii/OCRBot/blob/main/bot.py#L10) and the PATH where Tesseract is installed.
+3. Use it to install Tesseract, Then Go to [this line](https://github.com/samadii/OCRBot/blob/main/bot.py#L10) and add the PATH where Tesseract is installed.
 
 4. Fill [this PATH](https://github.com/samadii/OCRBot/blob/main/bot.py#L55) with the path of the tessdata folder.
    
