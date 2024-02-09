@@ -1,6 +1,6 @@
 pyrogram
 TgCrypto
-pyromod
+pyromod==1.4
 requests
 pytesseract
 Pillow
